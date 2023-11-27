@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+img{
+    margin: 10% 0;
+}
+/*mobile devices*/
+@media only screen and (max-width:575px) {
+   
+    img{
+        width: 540px;
+        height: 350px;
+        overflow: hidden;
+        
+    }
+}
+
+/*Tablet*/
+
+@media only screen and (min-width:576px) and (max-width:991px){
+    
+    img{
+        width: 800px;
+        height: 533px;
+    }
+}
+
+/*desktop and laptop*/
+@media only screen and (min-width:992px) {
+    
+    img{
+        width: 800px;
+        height: 500px;
+    }
+}
